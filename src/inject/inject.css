@@ -73,16 +73,17 @@ body {
 
 /* Buttons */
 
-.btn-success, .btn-primary, .btn-danger,
-.btn-success:hover, .btn-primary:hover, .btn-danger:hover {
+.btn-success, .btn-primary, .btn-danger, .btn-default,
+.btn-success:hover, .btn-primary:hover, .btn-danger:hover, .btn-default:hover {
   background-color: #545E70;
+  color: #fff;
 }
 
-.btn-primary {
+.btn-primary, .btn-default {
   border: 2px solid #008CE4;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-default:hover {
   border: 2px solid #007CC9;
 }
 
@@ -100,6 +101,10 @@ body {
 
 .btn-danger:hover {
   border: 2px solid #ac2925;
+}
+
+.btn-default[disabled] {
+  background-color: #545E70;
 }
 
 /*** Game ***/
@@ -173,4 +178,32 @@ body {
   border-color: #455062;
 }
 
+/* Modal */
+
+.modal-content {
+  background-color: #455062;
+  border: none;
+}
+
+.modal-header {
+  background-color: #545E70;
+  border-color: #455062;
+}
+
+.modal-footer {
+  border: none;
+}
+
+.close {
+  color: #fff;
+}
+
+/* Pieces */
+.bank_coins_modal .coins_panel .row .coin_row {
+  background-color: #545E70;
+}
+
+.bank_coins_modal .coins_panel .row .coin_row.choosable {
+  background-color: #455062;
+}
 

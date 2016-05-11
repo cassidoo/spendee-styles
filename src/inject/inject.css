@@ -1,0 +1,102 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+body {
+  background-color: #1c232e;
+  color: #fff;  
+}
+
+.navbar-default {
+  background-color: #545E70;
+  border: none;
+}
+
+#lobby_announcement {
+  background-color: #455062;
+  border-color: #5CB85C;
+  color: #fff;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#lobby {
+  background-color: #1c232e;
+}
+
+.panel {
+  background-color: #455062;
+  border: none;
+}
+
+.panel-warning>.panel-heading {
+  background-color: #545E70;
+  border-color: #455062;
+  color: #fff;
+}
+
+#lobby_inprogress_games_container .icon_normal_speed,
+#lobby_rooms_container .icon_normal_speed {
+  color: #5CB85C;
+}
+
+#lobby_inprogress_games_container .panel-body .status,
+#lobby_rooms_container .panel-body .status {
+  color: #EDEC5D;
+}
+
+#lobby_header button {
+  background-color: #1c232e;
+  border-color: #EDEC5D;
+  color: #EDEC5D;
+  font-weight: 400;
+}
+
+#lobby_inprogress_games_container .panel-body .player-slot .btn-group button,
+#lobby_rooms_container .panel-body .player-slot .btn-group button {
+  background-color: #455062;
+  border-color: #EDEC5D;
+  color: #EDEC5D;
+  font-weight: 400;
+}
+
+#lobby_inprogress_games_container .panel-heading,
+#lobby_rooms_container .panel-heading {
+  height: 40px;
+  padding: 15px
+}
+
+#lobby_open_handlers .handler {
+  background-color: #545E70;
+  box-shadow: 1px 1px 1px #000;
+}
+
+.btn-success, .btn-primary, .btn-danger,
+.btn-success:hover, .btn-primary:hover, .btn-danger:hover {
+  background-color: #545E70;
+}
+
+.btn-primary {
+  border: 2px solid #008CE4;
+}
+
+.btn-primary:hover {
+  border: 2px solid #007CC9;
+}
+
+.btn-success {
+  border: 2px solid #5CB85C;
+}
+
+.btn-success:hover {
+  border: 2px solid #449d44;
+}
+
+.btn-danger {
+  border: 2px solid #c9302c;
+}
+
+.btn-danger:hover {
+  border: 2px solid #ac2925;
+}

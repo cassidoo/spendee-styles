@@ -1,7 +1,3 @@
-/**
- * Place your custom CSS styles here.
- **/
-
 body {
   background-color: #1c232e;
   color: #fff;  
@@ -21,6 +17,8 @@ body {
   margin-right: auto;
 }
 
+/* Front Page Styles */
+
 #lobby {
   background-color: #1c232e;
 }
@@ -30,7 +28,7 @@ body {
   border: none;
 }
 
-.panel-warning>.panel-heading {
+.panel-warning>.panel-heading, #status_container {
   background-color: #545E70;
   border-color: #455062;
   color: #fff;
@@ -67,10 +65,13 @@ body {
   padding: 15px
 }
 
-#lobby_open_handlers .handler {
+#lobby_open_handlers .handler,
+#game_open_handlers .handler {
   background-color: #545E70;
   box-shadow: 1px 1px 1px #000;
 }
+
+/* Buttons */
 
 .btn-success, .btn-primary, .btn-danger,
 .btn-success:hover, .btn-primary:hover, .btn-danger:hover {
@@ -100,3 +101,76 @@ body {
 .btn-danger:hover {
   border: 2px solid #ac2925;
 }
+
+/*** Game ***/
+
+#board_container {
+  border: 2px solid #545E70;
+}
+
+#logs_container {
+  background-color: #545E70;
+  color: #EDEC5D;
+}
+
+#logs_container .content .pic {
+  color: #fff;
+}
+
+#logs_container .control {
+  border-right: none;
+}
+
+#logs_container {
+  margin: 5px;
+  border: none;
+}
+
+#logs_container .log_slot {
+  border: none;
+}
+
+/* Player */
+#players_summary_container {
+  padding: 5px;
+}
+
+#players_summary_container .player_container .panel-heading {
+  background-color: #545E70;
+  border: 0;
+}
+
+#players_summary_container .player_container .panel-body {
+  margin-bottom: 10px;
+}
+
+#players_summary_container .player_container .panel-body .detailed .row.score .col.total_score span {
+  font-size: 25px;
+  width: 40px;
+}
+
+#players_summary_container .player_container .panel-body .simplified .row.score .col.total_score span {
+  font-size: 15px;
+  width: 30px;
+}
+
+#players_summary_container .player_container .panel-body .detailed .row.score .col.total_score,
+#players_summary_container .player_container .panel-body .simplified .row.score .col.total_score {
+  margin-top: 5px;
+}
+
+.label-warning {
+  background-color: #FD942A;
+}
+
+/* Chat */
+.overlay_container {
+  color: #fff;
+}
+
+.overlay_container .panel-primary .panel-heading {
+  background-color: #545E70;
+  border-color: #455062;
+}
+
+

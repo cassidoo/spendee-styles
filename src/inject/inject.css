@@ -1,219 +1,219 @@
 body {
-  background-color: #1c232e;
-  color: #fff;  
+  background-color: #1c232e !important;
+  color: #fff !important;
 }
 
 .navbar-default {
-  background-color: #545E70;
-  border: none;
+  background-color: #545E70 !important;
+  border: none !important;
 }
 
 #lobby_announcement {
-  background-color: #455062;
-  border-color: #5CB85C;
-  color: #fff;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: #455062 !important;
+  border-color: #5CB85C !important;
+  color: #fff !important;
+  width: 50% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 /* Front Page Styles */
 
 #lobby {
-  background-color: #1c232e;
+  background-color: #1c232e !important;
 }
 
 .panel {
-  background-color: #455062;
-  border: none;
+  background-color: #455062 !important;
+  border: none !important;
 }
 
 .panel-warning>.panel-heading, #status_container {
-  background-color: #545E70;
-  border-color: #455062;
-  color: #fff;
+  background-color: #545E70 !important;
+  border-color: #455062 !important;
+  color: #fff !important;
 }
 
 #lobby_inprogress_games_container .icon_normal_speed,
 #lobby_rooms_container .icon_normal_speed {
-  color: #5CB85C;
+  color: #5CB85C !important;
 }
 
 #lobby_inprogress_games_container .panel-body .status,
 #lobby_rooms_container .panel-body .status {
-  color: #EDEC5D;
+  color: #EDEC5D !important;
 }
 
 #lobby_header button {
-  background-color: #1c232e;
-  border-color: #EDEC5D;
-  color: #EDEC5D;
-  font-weight: 400;
+  background-color: #1c232e !important;
+  border-color: #EDEC5D !important;
+  color: #EDEC5D !important;
+  font-weight: 400 !important;
 }
 
 #lobby_inprogress_games_container .panel-body .player-slot .btn-group button,
 #lobby_rooms_container .panel-body .player-slot .btn-group button {
-  background-color: #455062;
-  border-color: #EDEC5D;
-  color: #EDEC5D;
-  font-weight: 400;
+  background-color: #455062 !important;
+  border-color: #EDEC5D !important;
+  color: #EDEC5D !important;
+  font-weight: 400 !important;
 }
 
 #lobby_inprogress_games_container .panel-heading,
 #lobby_rooms_container .panel-heading {
-  height: 40px;
+  height: 40px !important;
   padding: 15px
 }
 
 #lobby_open_handlers .handler,
 #game_open_handlers .handler {
-  background-color: #545E70;
-  box-shadow: 1px 1px 1px #000;
+  background-color: #545E70 !important;
+  box-shadow: 1px 1px 1px #000 !important;
 }
 
 /* Buttons */
 
 .btn-success, .btn-primary, .btn-danger, .btn-default,
 .btn-success:hover, .btn-primary:hover, .btn-danger:hover, .btn-default:hover {
-  background-color: #545E70;
-  color: #fff;
+  background-color: #545E70 !important;
+  color: #fff !important;
 }
 
 .btn-primary, .btn-default {
-  border: 2px solid #008CE4;
+  border: 2px solid #008CE4 !important;
 }
 
 .btn-primary:hover, .btn-default:hover {
-  border: 2px solid #007CC9;
+  border: 2px solid #007CC9 !important;
 }
 
 .btn-success {
-  border: 2px solid #5CB85C;
+  border: 2px solid #5CB85C !important;
 }
 
 .btn-success:hover {
-  border: 2px solid #449d44;
+  border: 2px solid #449d44 !important;
 }
 
 .btn-danger {
-  border: 2px solid #c9302c;
+  border: 2px solid #c9302c !important;
 }
 
 .btn-danger:hover {
-  border: 2px solid #ac2925;
+  border: 2px solid #ac2925 !important;
 }
 
 .btn-default[disabled] {
-  background-color: #545E70;
+  background-color: #545E70 !important;
 }
 
 /*** Game ***/
 
 #board_container {
-  border: 2px solid #545E70;
+  border: 2px solid #545E70 !important;
 }
 
 #logs_container {
-  background-color: #545E70;
-  color: #EDEC5D;
+  background-color: #545E70 !important;
+  color: #EDEC5D !important;
 }
 
 #logs_container .content .pic {
-  color: #fff;
+  color: #fff !important;
 }
 
 #logs_container .control {
-  border-right: none;
+  border-right: none !important;
 }
 
 #logs_container {
-  margin: 5px;
-  border: none;
+  margin: 5px !important;
+  border: none !important;
 }
 
 #logs_container .log_slot {
-  border: none;
+  border: none !important;
 }
 
 /* Player */
 #players_summary_container {
-  padding: 5px;
+  padding: 5px !important;
 }
 
 #players_summary_container .player_container .panel-heading {
-  background-color: #545E70;
-  border: 0;
+  background-color: #545E70 !important;
+  border: 0 !important;
 }
 
 #players_summary_container .player_container .panel-body {
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
 }
 
 #players_summary_container .player_container .panel-body .detailed .row.score .col.total_score span {
-  font-size: 25px;
-  width: 40px;
+  font-size: 25px !important;
+  width: 40px !important;
 }
 
 #players_summary_container .player_container .panel-body .simplified .row.score .col.total_score span {
-  font-size: 15px;
-  width: 30px;
+  font-size: 15px !important;
+  width: 30px !important;
 }
 
 #players_summary_container .player_container .panel-body .detailed .row.score .col.total_score,
 #players_summary_container .player_container .panel-body .simplified .row.score .col.total_score {
-  margin-top: 5px;
+  margin-top: 5px !important;
 }
 
 .label-warning {
-  background-color: #FD942A;
+  background-color: #FD942A !important;
 }
 
 .name .fa-circle {
-  color: #EDEC5D;
-  opacity: 1;
-  animation: blinker 1s linear infinite;
+  color: #EDEC5D !important;
+  opacity: 1 !important;
+  animation: blinker 1s linear infinite !important;
 }
 
-@keyframes blinker {  
-  50% { opacity: 0.0; }
+@keyframes blinker {
+  50% { opacity: 0.0 !important; }
 }
 
 /* Chat */
 .overlay_container {
-  color: #fff;
+  color: #fff !important;
 }
 
 .overlay_container .panel-primary .panel-heading {
-  background-color: #545E70;
-  border-color: #455062;
+  background-color: #545E70 !important;
+  border-color: #455062 !important;
 }
 
 /* Modal */
 
 .modal-content {
-  background-color: #455062;
-  border: none;
+  background-color: #455062 !important;
+  border: none !important;
 }
 
 .modal-header {
-  background-color: #545E70;
-  border-color: #455062;
+  background-color: #545E70 !important;
+  border-color: #455062 !important;
 }
 
 .modal-footer {
-  border: none;
+  border: none !important;
 }
 
 .close {
-  color: #fff;
+  color: #fff !important;
 }
 
 /* Pieces */
 .bank_coins_modal .coins_panel .row .coin_row {
-  background-color: #545E70;
+  background-color: #545E70 !important;
 }
 
 .bank_coins_modal .coins_panel .row .coin_row.choosable {
-  background-color: #455062;
+  background-color: #455062 !important;
 }
 

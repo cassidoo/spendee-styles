@@ -168,6 +168,16 @@ body {
   background-color: #FD942A;
 }
 
+.name .fa-circle {
+  color: #EDEC5D;
+  opacity: 1;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+
 /* Chat */
 .overlay_container {
   color: #fff;

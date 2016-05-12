@@ -71,6 +71,10 @@ body {
   box-shadow: 1px 1px 1px #000 !important;
 }
 
+#game_open_handlers .handler.warning {
+  background: #c9302c !important;
+}
+
 /* Buttons */
 
 .btn-success, .btn-primary, .btn-danger, .btn-default,
@@ -164,18 +168,22 @@ body {
   margin-top: 5px !important;
 }
 
+#players_summary_container .player_container .panel-body .simplified .row.score .col.total_score {
+  padding-left: 10px !important;
+}
+
 .label-warning {
   background-color: #FD942A !important;
 }
 
 .name .fa-circle {
   color: #EDEC5D !important;
-  opacity: 1 !important;
-  animation: blinker 1s linear infinite !important;
+  opacity: 1;
+  animation: blinker 1s linear infinite;
 }
 
 @keyframes blinker {
-  50% { opacity: 0.0 !important; }
+  50% { opacity: 0.0; }
 }
 
 /* Chat */
